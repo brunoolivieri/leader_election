@@ -1,0 +1,5 @@
+Primeiro teste de uso do sinalgo!
+
+"simular uma rede de sensores, onde o nó
+estação-base irá gerar um flood na rede para
+montar uma estrutura de roteamento em árvore."

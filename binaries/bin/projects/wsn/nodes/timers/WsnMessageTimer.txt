@@ -1,0 +1,14 @@
+public class WsnMessageTimer extends Timer {
+
+private WsnMsg message = null;
+
+public WsnMessageTimer(WsnMsg message){
+this.message = message;
+}
+
+@Override
+public void fire() {
+((SimpleNode)node).broadcast(message);
+}
+
+}
